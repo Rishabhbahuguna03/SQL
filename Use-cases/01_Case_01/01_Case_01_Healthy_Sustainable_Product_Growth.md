@@ -7,13 +7,8 @@ The management wants to understand how many of its current **products** meet bot
 
 ---
 
-## Note
-*Low-fat and recyclable* products are those formulated with reduced fat content and packaged using materials compliant with India’s recyclable packaging standards under the **Plastic Waste Management Rules (EPR framework)**.
-
----
-
 ## Problem Statement
-NutriLife aims to identify which of its products are both low-fat and recyclable, establishing the baseline for its Healthy & Sustainable product range and guiding decisions on portfolio growth and category focus.
+**NutriLife** aims to identify which of its products are **both low-fat and recyclable**, establishing the baseline for its Healthy & Sustainable product range and guiding decisions on portfolio growth and category focus.
 
 ---
 
