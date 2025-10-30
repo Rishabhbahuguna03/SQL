@@ -1,4 +1,4 @@
--- Here is our products table
+-- products table
 
 CREATE TABLE Products (
   product_id     SERIAL PRIMARY KEY,
@@ -124,3 +124,4 @@ INSERT INTO Reviews (review_id, customer_id, product_id, rating, comment, review
 (8,208,8,4,'Good travel snack','2025-02-18'),
 (9,209,1,5,'Easy to cook and light','2025-03-01'),
 (10,210,13,4,'Good baked option','2025-03-10');
+
