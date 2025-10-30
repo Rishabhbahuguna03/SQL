@@ -26,7 +26,7 @@ WHERE low_fats = 'Y' AND recyclable = 'Y';
 
 ---
 
-## Output Example
+## Output
 
 | product_id | name                    | category   |
 |-------------|------------------------|-------------|
