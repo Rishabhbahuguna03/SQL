@@ -1,10 +1,10 @@
 # Case 01: Healthy & Sustainable Product Growth
 
 ## Context
-**NutriLife India**, a mid-sized FMCG company, recently began tagging its products with two attributes: low-fat and recyclable, to align with India’s growing base of health and eco-conscious consumers.
+NutriLife India, a mid-sized FMCG company, recently began tagging its products with two attributes — low-fat and recyclable — to align with India’s growing base of health- and eco-conscious consumers.
 
 ## Problem Statement
-The management wants to identify products that are **both low-fat and recyclable** to establish the baseline of its Healthy & Sustainable product range.
+The management wants to identify products that are both low-fat and recyclable to establish the baseline of its Healthy & Sustainable product range.
 
 ## SQL Query
 ```sql
@@ -25,6 +25,4 @@ WHERE low_fats = 'Y' AND recyclable = 'Y';
 | 15 | Organic Poha | Breakfast |
 
 ## Business Interpretation
-**NutriLife** currently offers **seven products** that are **both low-fat and recyclable**, mostly in daily-use categories like snacks, bakery, and dairy. This shows that the company’s early efforts toward healthy and sustainable offerings are centered on staple food items.
-
-Expanding these attributes into beverages or meal mixes could help reach a wider health-conscious audience.
+NutriLife currently offers seven products that are both low-fat and recyclable, mostly in daily-use categories like snacks, bakery, and dairy. This shows that the company’s early efforts toward healthy and sustainable offerings are centered on staple food items. Expanding these attributes into beverages or meal mixes could help reach a wider health-conscious audience.
