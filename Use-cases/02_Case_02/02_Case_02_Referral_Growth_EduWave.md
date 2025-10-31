@@ -1,7 +1,7 @@
 # Case 02: Strengthening Referral-led Growth in Tier-2 & Tier-3 Markets
 
 ## Context
-EduWave India is a mid-sized EdTech platform offering online, job-ready courses to students and early professionals.  
+**EduWave India** is a mid-sized EdTech platform offering online, job-ready courses to students and early professionals.  
 To expand beyond major metros, EduWave launched a peer referral program that allows learners and campus ambassadors to invite others to join the platform.
 
 Each learner record tracks:
@@ -9,9 +9,9 @@ Each learner record tracks:
 - their signup date, and
 - their city of origin.
 
-Recently, EduWave’s marketing analytics team observed that learners referred by a particular **top influencer (ID = 2)** generate high signup numbers but low course completion rates — indicating **shallow, incentive-driven growth**.
+Recently, EduWave’s marketing analytics team observed that learners referred by a particular **top influencer (ID = 2)** generate high signup numbers but low course completion rates, indicating **shallow, incentive-driven growth**.
 
-Leadership now wants to focus on **high-quality, sustainable learners** — those who joined organically or were referred by genuine peers rather than the top influencer.
+Leadership now wants to focus on **high-quality, sustainable learners** those who joined organically or were referred by genuine peers rather than the top influencer.
 
 ---
 
@@ -37,6 +37,6 @@ WHERE COALESCE(referred_by, 0) != 2;
 
 ## Business Interpretation
 
-Seven learners were acquired organically or via peer referrals, excluding influencer-driven signups.  
-Concentrated across Tier-2 and Tier-3 cities like **Jaipur, Indore, and Coimbatore**, this group signals **grassroots adoption** driven by course relevance and peer trust.  
-They represent EduWave’s **most sustainable growth segment**, with high potential for engagement and retention.
+- **Seven learners** were acquired organically or via peer referrals, excluding influencer-driven signups.  
+- Concentrated across Tier-2 and Tier-3 cities like **Jaipur, Indore, and Coimbatore**, this group signals **grassroots adoption** driven by course relevance and peer trust.  
+- They represent EduWave’s **most sustainable growth segment**, with high potential for engagement and retention.
