@@ -1,8 +1,0 @@
-"product_id","name","category"
-1,"Multigrain Roti Mix","Flour Mix"
-4,"Protein Makhana","Snacks"
-6,"Oats & Jaggery Cookies","Bakery"
-8,"Millet Energy Bar","Snacks"
-11,"Light Paneer (200g)","Dairy"
-13,"Baked Bhujia","Snacks"
-15,"Organic Poha","Breakfast"
