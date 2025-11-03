@@ -2,6 +2,9 @@
 
 **Dataset we used for this challenge:** [Hospital Beds Management](https://www.kaggle.com/datasets/jaderz/hospital-beds-management)
 
+This overview file should be reviewed alongside the Entity-Relationship Diagram (ERD) provided in the repository.
+The ERD visually represents the database schema, outlining key entities, their attributes, and the relationships that define the data model.
+
 The **Hospital database** models a simplified healthcare system where patients, staff, and weekly hospital operations are tracked. It helps analyze service performance, patient flow, and staff management.
 
 ## 1. patients
