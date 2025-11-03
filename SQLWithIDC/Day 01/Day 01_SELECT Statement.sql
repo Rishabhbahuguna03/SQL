@@ -23,11 +23,9 @@ LIMIT 10;
 
 
 
--- Day 01
-List all unique hospital services available in the hospital.
+-- Day 01 Challenge Question:
+-- List all unique hospital services available in the hospital.
 
 SELECT DISTINCT service
 FROM services_weekly;
-
-
 
