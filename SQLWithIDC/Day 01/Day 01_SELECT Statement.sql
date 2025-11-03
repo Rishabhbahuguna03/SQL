@@ -1,3 +1,5 @@
+-- Loading first 5 rows from `patients` table
+
 SELECT * 
 FROM patients 
 LIMIT 5;
@@ -26,3 +28,4 @@ List all unique hospital services available in the hospital.
 
 SELECT DISTINCT service
 FROM services_weekly;
+
