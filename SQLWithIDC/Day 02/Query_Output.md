@@ -1,4 +1,4 @@
-# SQL Challenge - Day 02 Output
+# SQL Challenge - Day 02
 
 ## Challenge Question
 Find all patients admitted to **'Surgery'** service with a satisfaction score below 70, showing their patient_id, name, age, and satisfaction score.
@@ -72,5 +72,3 @@ WHERE service = 'surgery' AND satisfaction < 70;
 | PAT-5a0ce14d  | Stephen Cowan        | 39  | 62 |
 
 ---
-
-**Note:** Output truncated for readability. Results generated from the hospital database used in the SQL 21-Day Challenge.
