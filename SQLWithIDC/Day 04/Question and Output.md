@@ -11,7 +11,6 @@ ORDER BY satisfaction DESC
 LIMIT 5
 OFFSET 2;
 
-## Output
 
 | patient_id   | name           | service   | satisfaction |
 | ------------ | -------------- | --------- | ------------ |
@@ -20,5 +19,3 @@ OFFSET 2;
 | PAT-87783e44 | Devon Flores   | emergency | 99           |
 | PAT-a2ce687a | Craig Morrison | surgery   | 99           |
 | PAT-26a57bc7 | Jeffrey Mills  | surgery   | 99           |
-
-
