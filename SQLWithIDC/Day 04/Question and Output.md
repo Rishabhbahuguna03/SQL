@@ -1,7 +1,7 @@
 # SQL Challenge - Day 04
 
 **Challenge Question:**  
-Find the 3rd to 7th highest patient satisfaction scores from the patients table, showing patient_id, name, service, and satisfaction. Display only these 5 records.
+Find the 3rd to 7th highest patient satisfaction scores from the patients table, showing `patient_id`, `name`, `service`, and `satisfaction`. Display only these 5 records.
 
 **SQL Query:**
 ```sql
@@ -20,5 +20,6 @@ OFFSET 2;
 | PAT-87783e44 | Devon Flores   | emergency | 99           |
 | PAT-a2ce687a | Craig Morrison | surgery   | 99           |
 | PAT-26a57bc7 | Jeffrey Mills  | surgery   | 99           |
+
 
 
