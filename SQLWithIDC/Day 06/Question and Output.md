@@ -22,3 +22,4 @@ ORDER BY admission_rate DESC;
 | surgery          | 1686           | 555           | 75.23          |
 | general_medicine | 2332           | 1938          | 54.61          |
 | emergency        | 1185           | 5008          | 19.13          |
+
