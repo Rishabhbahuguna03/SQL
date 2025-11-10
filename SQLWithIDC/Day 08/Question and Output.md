@@ -1,4 +1,4 @@
-# Day 08 - SQL Challenge
+# SQL Challenge - Day 08
 
 ## Challenge Question
 Create a patient summary that shows patient_id, full name in uppercase, service in lowercase, age category (if age >= 65 then 'Senior', if age >= 18 then 'Adult', else 'Minor'), and name length. Only show patients whose name length is greater than 10 characters.
@@ -19,7 +19,7 @@ FROM patients
 WHERE LENGTH(name) > 10;
 ```
 
-## Output (Sample)
+## Output
 | patient_id  | full_name           | service_name     | age_category | name_length |
 |--------------|--------------------|------------------|---------------|--------------|
 | PAT-09484753 | RICHARD RODRIGUEZ  | surgery          | Adult         | 17           |
@@ -30,6 +30,4 @@ WHERE LENGTH(name) > 10;
 
 ---
 
-### Reflection
-This challenge explores **string manipulation and conditional logic** in SQL.  
-By combining `UPPER()`, `LOWER()`, `CASE`, and `LENGTH()`, we can create readable, categorized views that make reporting data more human-friendly and standardized.
+## Total no. of rows = 922
