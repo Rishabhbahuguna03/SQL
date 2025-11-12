@@ -16,7 +16,8 @@ ORDER BY avg_stay DESC;
 ```
 ## Output
 | service   | avg_stay | patient_count |
-| -------   | -------- | ------------- |
-| surgery   | 7.87     | 132           |
-| ICU       | 7.61     | 85            |
-| emergency | 7.16     | 263           |
+|------------|-----------|---------------|
+| surgery    | 7.87      | 132           |
+| ICU        | 7.61      | 85            |
+| emergency  | 7.16      | 263           |
+
