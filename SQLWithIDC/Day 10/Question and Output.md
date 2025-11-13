@@ -1,0 +1,35 @@
+# SQL Challenge - Day 10
+
+## Challenge Question
+Create a service performance report showing service name, total patients admitted, and a performance category based on the following:  
+- 'Excellent' if avg satisfaction >= 85  
+- 'Good' if >= 75  
+- 'Fair' if >= 65  
+- otherwise 'Needs Improvement'.  
+
+Order by average satisfaction descending.
+
+## SQL Query
+```sql
+SELECT 
+    service,
+    SUM(patients_admitted) AS total_admitted,
+    ROUND(AVG(patient_satisfaction), 2) AS avg_satisfaction,
+    CASE
+        WHEN AVG(patient_satisfaction) >= 85 THEN 'Excellent'
+        WHEN AVG(patient_satisfaction) >= 75 THEN 'Good'
+        WHEN AVG(patient_satisfaction) >= 65 THEN 'Fair'
+        ELSE 'Needs Improvement'
+    END AS performance_category
+FROM services_weekly
+GROUP BY service
+ORDER BY avg_satisfaction DESC;
+```
+## Output
+
+| service          | total_admitted | avg_satisfaction | performance_category |
+| ---------------- | -------------- | ---------------- | -------------------- |
+| ICU              | 648            | 81.62            | Good                 |
+| general_medicine | 2332           | 81.23            | Good                 |
+| surgery          | 1686           | 79.27            | Good                 |
+| emergency        | 1185           | 77.88            | Good                 |
