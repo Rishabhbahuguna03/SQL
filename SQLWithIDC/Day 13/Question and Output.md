@@ -13,7 +13,7 @@ SELECT
     COUNT(s.staff_id) AS staff_count
 FROM patients p
 JOIN staff s 
-    ON p.service = s.service
+    USING(service)
 GROUP BY p.patient_id, p.name, p.age, p.service
 HAVING COUNT(s.staff_id) > 5
 ORDER BY staff_count DESC, p.name;
