@@ -15,3 +15,5 @@ LEFT JOIN staff_schedule ss
 GROUP BY s.staff_id
 ORDER BY weeks_present DESC;
 ```
+## Output
+The output is in a separate file due to a large no. of records.
