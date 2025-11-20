@@ -10,7 +10,7 @@ The database contains 4 key tables:
 `pizzas` – pizza sizes and prices
 `pizza_types` – pizza names, categories, ingredients
 
-and [here]() is the Entity-Relationship Diagram (ERD) for the dataset.
+and [here](https://github.com/Rishabhbahuguna03/SQL/blob/main/SQLWithIDC/Mini%20Project/The%20Great%20Pizza%20Analytics%20Challenge/ERD%20for%20The%20Great%20Pizza%20Analytics%20Challenge.png) is the Entity-Relationship Diagram (ERD) for the dataset.
 
 This project covers everything from basic inspection to detailed analytical insights.
 
