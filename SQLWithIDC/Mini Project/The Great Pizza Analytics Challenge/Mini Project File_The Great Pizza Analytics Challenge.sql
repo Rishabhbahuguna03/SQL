@@ -2,7 +2,7 @@
 
 -- Phase 01: Foundation and Inspection
 
--- Retrieving data from all the tables. order_details and orders are our main table.
+-- Retrieving data from all the tables.
 
 SELECT *
 FROM pizza_types;
@@ -96,5 +96,6 @@ FROM pizzas;
 
 
 -- 3. Total order value per order.
+
 
 SELECT 
