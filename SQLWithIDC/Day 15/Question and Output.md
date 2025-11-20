@@ -24,7 +24,7 @@ ORDER BY total_admitted DESC;
 
 ## Output
 
-| service          | admitted | refused | avg satisfaction | staff count | staff present |
+| service          | total_admitted | total_refused | avg_satisfaction | staff_cnt | staff_present_week20 |
 | ---------------- | -------- | ------- | ---------------- | ----------- | ------------- |
 | general_medicine | 1120     | 840     | 64.00            | 28          | 24            |
 | emergency        | 819      | 936     | 93.00            | 39          | 37            |
