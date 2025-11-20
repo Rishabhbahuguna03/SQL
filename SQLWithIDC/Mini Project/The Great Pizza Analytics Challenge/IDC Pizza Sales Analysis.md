@@ -105,16 +105,16 @@ This project covers from initial data exploration to detailed sales insights.
 
 - SQL Functions used: 
 
-- SELECT Statement: for retrieving data  
-- DISTINCT Command: for selecting unique values  
-- COALESCE Function: for handling null values  
-- IS NULL Function: for identifying missing prices  
-- WHERE Clause: for filtering data  
-- ORDER BY Clause: for sorting results  
-- BETWEEN Operator: for selecting a range of values  
-- LIKE Clause: for pattern matching  
-- SUM and AVG: aggregate functions for calculating totals and averages   
-- GROUP BY Function: for grouping similar values  
-- HAVING Clause: for filtering groups based on conditions  
-- INNER JOIN Operation: combines tables, including only matching rows  
-- LEFT JOIN Operation: combines tables, keeping all rows from the left table even if no match exists
+  - SELECT Statement: for retrieving data  
+  - DISTINCT Command: for selecting unique values  
+  - COALESCE Function: for handling null values  
+  - IS NULL Function: for identifying missing prices  
+  - WHERE Clause: for filtering data  
+  - ORDER BY Clause: for sorting results  
+  - BETWEEN Operator: for selecting a range of values  
+  - LIKE Clause: for pattern matching  
+  - SUM and AVG: aggregate functions for calculating totals and averages   
+  - GROUP BY Function: for grouping similar values  
+  - HAVING Clause: for filtering groups based on conditions  
+  - INNER JOIN Operation: combines tables, including only matching rows  
+  - LEFT JOIN Operation: combines tables, keeping all rows from the left table even if no match exists
