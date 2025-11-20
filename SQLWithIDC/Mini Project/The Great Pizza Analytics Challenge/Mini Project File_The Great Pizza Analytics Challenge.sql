@@ -97,5 +97,5 @@ FROM pizzas;
 
 -- 3. Total order value per order.
 
-
 SELECT 
+
