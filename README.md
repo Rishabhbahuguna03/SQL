@@ -1,4 +1,4 @@
-# SQL
+# Let me brief you with 'what this repository is all about?'
 
 - This repository records my progress in the database world using `SQL`.
 
