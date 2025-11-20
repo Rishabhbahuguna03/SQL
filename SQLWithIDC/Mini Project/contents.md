@@ -1,1 +1,3 @@
-- IDC_Pizza.dump file: 
+- [IDC_Pizza.dump file (https://github.com/Rishabhbahuguna03/SQL/blob/main/SQLWithIDC/Mini%20Project/The%20Great%20Pizza%20Analytics%20Challenge/IDC_Pizza.dump)
+- [ERD](url)
+- [Mini Project File](url)
