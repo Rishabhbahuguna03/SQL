@@ -6,7 +6,7 @@
 
 **Date**: November 20, 2025
 
-**Project Summary**:
+## Project Summary:
 
 This project analyzes pizza sales data to identify high-performing categories, underperforming items, and revenue opportunities, providing actionable insights for menu strategy and marketing initiatives.
 
