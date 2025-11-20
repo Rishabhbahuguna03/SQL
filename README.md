@@ -1,6 +1,6 @@
 # SQL
 
-- This repository is records my progress in the database world using `SQL`.
+- This repository records my progress in the database world using `SQL`.
 
 - Currently, I'm working on a [21 Day Challenge series](https://github.com/Rishabhbahuguna03/SQL/tree/main/SQLWithIDC) by Indian Data Club (IDC) sponsored by DPDzero.
 
