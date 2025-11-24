@@ -26,3 +26,13 @@ ORDER BY total_admitted DESC;
 FROM service_totals st
 CROSS JOIN overall_avg oa
 ORDER BY st.total_admissions DESC;
+```
+## Output
+
+| service          | total_admitted | diff_from_avg | rank_indicator |
+| ---------------- | -------------- | ------------- | -------------- |
+| general_medicine | 2332           | 869.25        | Above Average  |
+| surgery          | 1686           | 223.25        | Above Average  |
+| emergency        | 1185           | -277.75       | Below Average  |
+| ICU              | 648            | -814.75       | Below Average  |
+
