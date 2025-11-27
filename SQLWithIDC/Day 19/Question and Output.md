@@ -5,7 +5,6 @@ For each service, rank the weeks by patient satisfaction score (highest first).
 Show service, week, patient_satisfaction, patients_admitted, and the rank.  
 Include only the top 3 weeks per service.
 
----
 
 ## SQL Query
 
@@ -25,7 +24,7 @@ FROM (
 ) AS s
 WHERE rank <= 3;
 ```
-Output
+## Output
 
 | service          | week | patient_satisfaction | patients_admitted | rank |
 | ---------------- | ---- | -------------------- | ----------------- | ---- |
@@ -41,3 +40,4 @@ Output
 | surgery          | 47   | 99                   | 48                | 1    |
 | surgery          | 20   | 99                   | 31                | 2    |
 | surgery          | 36   | 97                   | 47                | 3    |
+
