@@ -6,4 +6,4 @@
 
 - The challenge encourages regular updates, so I am posting my daily progress on [X](https://x.com/RishabhBahuguna) and [GitHub](https://github.com/Rishabhbahuguna03).
 
-- For this challenge, I am working with [PostgreSQL 17](https://www.postgresql.org/about/news/postgresql-17-released-2936/) as the database engine and [pgAdmin 4 v9.6](https://www.postgresql.org/about/news/pgadmin-4-v96-released-3108/) as the interface for managing and reviewing the data. This setup keeps the workflow structured and easy to track.
+- For this challenge, I am working with PostgreSQL as the database engine and pgAdmin as the interface for managing and reviewing the data. This setup maintains a structured workflow and makes it easy to track.
